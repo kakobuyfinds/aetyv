@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>ACBuy spreadsheet | Fashion Finds, Sizing &amp; QC Guide</title>
+  <meta name="description" content="Browse ten CAFANS fashion categories and use this independent ACBuy spreadsheet guide to compare seller links, check sizing and QC photos, and estimate parcel costs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ACBuy spreadsheet | Fashion Finds, Sizing &amp; QC Guide">
+  <meta property="og:description" content="Find a category, verify the product listing and know what to check before shipping.">
+  <meta name="theme-color" content="#25233b">
+  <style>
+    :root{color-scheme:light;--paper:#f7f5ef;--ink:#25233b;--muted:#55546a;--line:#d8d4dd;--accent:#e7e3ff;--white:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    a{color:inherit;text-underline-offset:.2em}
+    a:focus-visible,summary:focus-visible{outline:3px solid #6a45d1;outline-offset:4px}
+    .wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+    .bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4rem}
+    .wordmark{font-weight:850;letter-spacing:.12em;text-decoration:none}
+    .bar>a:last-child{font-size:.93rem}
+    .hero{display:grid;grid-template-columns:1.17fr .83fr;background:var(--ink);color:var(--white);border-radius:1.25rem;overflow:hidden}
+    .hero-copy{padding:clamp(1.4rem,5vw,4rem);align-self:center}
+    h1,h2,h3,p,figure{margin:0}
+    h1{font-size:clamp(2.5rem,6vw,5rem);letter-spacing:-.065em;line-height:.98}
+    h2{font-size:clamp(1.65rem,3vw,2.35rem);line-height:1.15;letter-spacing:-.035em}
+    h3{font-size:1.23rem;line-height:1.25}
+    p+p{margin-top:.7rem}
+    .hero p{margin:1.15rem 0 1.4rem;max-width:45ch;color:#f0eef8}
+    .button{display:inline-block;padding:.66rem 1rem;border-radius:.5rem;background:var(--accent);color:var(--ink);font-weight:750;text-decoration:none}
+    .button:hover,.categories a:hover{background:#d9d0ff}
+    img{display:block;width:100%;height:auto}
+    .hero img{height:100%;min-height:16rem;object-fit:contain;background:#dedcdf}
+    section{margin-block:clamp(2rem,5vw,3.75rem)}
+    section>h2{margin-bottom:1rem}
+    .categories,.gallery,.guides{display:grid;gap:.65rem;margin:0;padding:0;list-style:none}
+    .categories{grid-template-columns:repeat(5,minmax(0,1fr))}
+    .categories a{display:flex;justify-content:space-between;align-items:center;gap:.3rem;min-height:3rem;height:100%;padding:.55rem .75rem;border:1px solid var(--line);border-radius:.5rem;background:var(--white);font-weight:650;text-decoration:none;overflow-wrap:anywhere}
+    .gallery{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .gallery figure,.guides article{overflow:hidden;border:1px solid var(--line);border-radius:.75rem;background:var(--white)}
+    .gallery img{aspect-ratio:4/3;object-fit:contain;background:#f1eef3}
+    figcaption{padding:.65rem .8rem;font-size:.91rem;font-weight:650}
+    .note{margin-top:.75rem;color:var(--muted);font-size:.92rem}
+    .guides{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+    .guides article{padding:1.15rem}
+    .guides h3{margin-bottom:.55rem}
+    .checklist{margin:.65rem 0 0;padding-left:1.25rem}
+    .checklist li+li{margin-top:.35rem}
+    .faq{max-width:53rem}
+    details{border-bottom:1px solid var(--line);padding:.65rem 0}
+    summary{cursor:pointer;font-weight:700;padding:.35rem .15rem}
+    details p{padding:.2rem .15rem .45rem;max-width:72ch}
+    footer{padding:1.25rem 0 2rem;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+    @media(max-width:52rem){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:40rem){.hero,.guides{grid-template-columns:1fr}.hero img{height:auto;min-height:0;aspect-ratio:2/1}.gallery,.categories{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "name":"ACBuy spreadsheet | Fashion Finds, Sizing & QC Guide",
+        "description":"Browse ten CAFANS fashion categories and use this independent ACBuy spreadsheet guide to compare seller links, check sizing and QC photos, and estimate parcel costs.",
+        "inLanguage":"en"
+      },
+      {
+        "@type":"FAQPage",
+        "inLanguage":"en",
+        "mainEntity":[
+          {
+            "@type":"Question",
+            "name":"What is an ACBuy spreadsheet?",
+            "acceptedAnswer":{"@type":"Answer","text":"An ACBuy spreadsheet is a directory people use to save and compare product links before ordering through a shopping agent. This independent CAFANS guide provides category shortcuts and a checklist for reviewing listings."}
+          },
+          {
+            "@type":"Question",
+            "name":"How do I check if a seller link is still valid?",
+            "acceptedAnswer":{"@type":"Answer","text":"Open the original listing and match the item ID, seller name, color and size. If the link redirects to a different product or the variant has disappeared, look for a current listing before you buy."}
+          },
+          {
+            "@type":"Question",
+            "name":"Can QC photos prove a branded item is authentic?",
+            "acceptedAnswer":{"@type":"Answer","text":"QC photos can show visible details such as stitching, labels and condition. For branded goods, verify the seller and provenance through a trusted source. Use an independent authentication service if you need additional evidence."}
+          },
+          {
+            "@type":"Question",
+            "name":"How do I estimate international shipping costs?",
+            "acceptedAnswer":{"@type":"Answer","text":"Use the packed parcel’s weight and dimensions to compare quotes for your destination. Check the carrier’s billing rules and include applicable taxes, duties and handling fees in your estimate."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/aetyv/">
+</head>
+<body>
+  <!--
+    File: index.html
+    Research for “ACBuy spreadsheet”: ten distinct domains sampled from web search.
+    Exact Google first-page order was not independently verified.
+    acbuy.net — marketplace origins, ordering sequence, and warehouse checks.
+    acbuy.io — category navigation and photo-first comparison.
+    acbuy.fun — category filters, search, and sportswear.
+    acbuy.vip — category navigation and seller contact prompts.
+    acbuy.store — searchable splits for apparel, jewelry, and accessories.
+    acbuyspreadsheet.com — grid and sheet browsing, plus a beginner buying guide.
+    acbuy-spreadsheet.org — listing identifiers, QC checks, and parcel estimates.
+    acbuy.dev — AllChinaBuy synonym, link entry, and size selection.
+    allchina-buy.com — AllChinaBuy shopping intent and category-led discovery.
+    grails.fit — brand and seller lookup, catalog depth, and warehouse photos.
+    Suggested secondary terms: AllChinaBuy spreadsheet; ACBuy finds; ACBuy QC photos;
+    ACBuy shipping cost; ACBuy buying guide.
+  -->
+  <header class="wrap bar">
+    <a class="wordmark" href="https://www.cafans.com">CAFANS</a>
+    <a href="https://www.cafans.com">Open catalog <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div class="hero-copy">
+        <h1>ACBuy spreadsheet</h1>
+        <p>Start with a category, check the seller’s listing, and know which photos and measurements to ask for before you ship.</p>
+        <a class="button" href="https://www.cafans.com">Browse CAFANS</a>
+      </div>
+      <img src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg?v=637654399803530000" width="640" height="480" alt="Side view of a white Nike Air Force 1 ’07 low-top sneaker" fetchpriority="high" decoding="async">
+    </div>
+
+    <section aria-labelledby="categories-heading">
+      <h2 id="categories-heading">Browse by category</h2>
+      <nav aria-label="CAFANS product categories">
+        <ul class="categories">
+          <li><a href="https://cafans.com/category-911-Shoes.html">Shoes <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Hoodies/Sweaters <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-913-T-Shirts.html">T-Shirts <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-914-Jackets.html">Jackets <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Pants/Shorts <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-916-Headwear.html">Headwear <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-917-Sets.html">Sets <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Underwear/underpants <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-919-Jersey.html">Jersey <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://cafans.com/category-920-Accessories.html">Accessories <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Fashion references</h2>
+      <div class="gallery">
+        <figure>
+          <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="480" alt="Gucci baseball cap in beige GG canvas with brown trim" loading="lazy" decoding="async">
+          <figcaption>Gucci GG canvas cap</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.cn/is/image/diorprod/LOOK_H_26_3_LOOK_031_E07?%24r9x10_raw%24=&amp;bfc=on&amp;crop=0%2C0%2C4000%2C5000&amp;hei=650&amp;qlt=80&amp;scale=1&amp;wid=600" width="640" height="480" alt="Model wearing a black Dior embroidered T-shirt and beige trousers" loading="lazy" decoding="async">
+          <figcaption>Dior embroidered T-shirt</figcaption>
+        </figure>
+        <figure>
+          <img src="https://www.fashionphile.com/cdn/shop/files/3c23586f09b6e1e9cf5f738c46ce7476.jpg?v=1776971082&amp;width=600" width="640" height="480" alt="Louis Vuitton Speedy 25 handbag in brown monogram canvas with tan handles" loading="lazy" decoding="async">
+          <figcaption>Louis Vuitton Speedy 25</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.voila.id/voila/images/product/hermes/1product-H700001F-01PM-Xms-2022-10-23T1706340700.jpeg" width="640" height="480" alt="Hermès Clic H bracelet with black enamel and a gold-tone H clasp" loading="lazy" decoding="async">
+          <figcaption>Hermès Clic H bracelet</figcaption>
+        </figure>
+      </div>
+      <p class="note">Images illustrate styles and details. CAFANS is an independent catalog and guide.</p>
+    </section>
+
+    <section aria-labelledby="guides-heading">
+      <h2 id="guides-heading">What to check before you order</h2>
+      <div class="guides">
+        <article>
+          <h3>Verify the original listing</h3>
+          <p>When comparing ACBuy finds, save the original seller link and item ID together. For a Weidian product link, check the seller name and selected color on the listing. For a Taobao item, open the variant menu to confirm the size is offered. On 1688, check the minimum order quantity before comparing prices.</p>
+          <p>If you found the item through an AllChinaBuy spreadsheet, keep the marketplace ID in your notes so you can match it across directories. Save a screenshot of the selected variant and seller return terms in case the listing changes.</p>
+        </article>
+        <article>
+          <h3>Compare measurements by category</h3>
+          <ul class="checklist">
+            <li><strong>Shoes:</strong> Use the seller’s shoe size chart and compare insole length in centimeters, especially when converting between US, UK and EU sizes.</li>
+            <li><strong>T-shirts, hoodies and jackets:</strong> Compare flat chest width, shoulder width, sleeve length and garment length with a piece you already wear.</li>
+            <li><strong>Pants, shorts and sets:</strong> Check flat waist, rise and inseam. Confirm whether you can choose different sizes for the top and bottom.</li>
+            <li><strong>Headwear, underwear and jerseys:</strong> Check the cap’s adjustable circumference, whether the waistband is measured stretched or relaxed, and whether the jersey allows room for a layer.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Read the ACBuy QC photos</h3>
+          <p>When warehouse QC photos are available, match the size label and colorway to your order. For sneakers, compare heel alignment, toe-box shape and both outsoles. For apparel, check seams and print placement. For bags and jewelry, ask for close-ups of zipper pulls, clasps and corners if the overview leaves those details unclear.</p>
+          <p>Ask for a ruler photo when a garment measurement matters. Record any discrepancy and check the exchange deadline before approving the parcel for shipment.</p>
+        </article>
+        <article>
+          <h3>Estimate the ACBuy shipping cost</h3>
+          <p>Record the item cost, domestic delivery and any agent fees first. Once packed dimensions are available, compare actual parcel weight with the carrier’s dimensional weight calculation. Ask for a new quote if removing a shoe box changes the parcel dimensions.</p>
+          <p>Use your destination postcode for a shipping quote and include any applicable import VAT, duties and handling fees when estimating the landed cost. Compare delivery windows and tracking options for the same destination.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently asked questions</h2>
+      <details open>
+        <summary>What is an ACBuy spreadsheet?</summary>
+        <p>An ACBuy spreadsheet is a directory people use to save and compare product links before ordering through a shopping agent. This independent CAFANS guide provides category shortcuts and a checklist for reviewing listings.</p>
+      </details>
+      <details>
+        <summary>How do I check if a seller link is still valid?</summary>
+        <p>Open the original listing and match the item ID, seller name, color and size. If the link redirects to a different product or the variant has disappeared, look for a current listing before you buy.</p>
+      </details>
+      <details>
+        <summary>Can QC photos prove a branded item is authentic?</summary>
+        <p>QC photos can show visible details such as stitching, labels and condition. For branded goods, verify the seller and provenance through a trusted source. Use an independent authentication service if you need additional evidence.</p>
+      </details>
+      <details>
+        <summary>How do I estimate international shipping costs?</summary>
+        <p>Use the packed parcel’s weight and dimensions to compare quotes for your destination. Check the carrier’s billing rules and include applicable taxes, duties and handling fees in your estimate.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <a href="https://www.cafans.com">CAFANS</a> · Independent fashion directory
+  </footer>
+</body>
+</html>
